@@ -1,0 +1,55 @@
+.try_container{
+    /* margin: auto; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+
+.try_content h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 140%;
+color: #FFFFFF;
+}
+
+.try_content p{
+    width: 330px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.01em;
+color: rgba(255, 255, 255, 0.7);
+
+}
+ 
+.getstarted_btn{
+width: 170px;
+height: 64px;
+margin-top: 50px;
+margin-left: 50px;
+background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+border-radius: 5px;
+border: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .try_container{
+        width: 70%;
+        height: auto;
+    }
+    .try_content p{
+       width: auto;
+    
+    }
+    .getstarted_btn{
+        margin-left: 0px;
+    }
+} 

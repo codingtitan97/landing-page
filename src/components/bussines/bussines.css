@@ -1,0 +1,118 @@
+/** @format */
+
+.bussines_container {
+  margin-top: 60px;
+  color: #fff;
+  display: flex;
+}
+
+.bussines_left {
+  width: 50%;
+}
+.bussines_left h1 {
+  width: 382px;
+  height: 154px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.bussines_left p {
+  width: 570px;
+  height: 93px;
+  margin-top: 30px;
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+}
+.bussines_right {
+  padding-left: 30px;
+  width: 50%;
+  list-style: none;
+}
+
+.bussines_right-content {
+  /* width: 470px; */
+  height: 115px;
+  display: flex;
+}
+.bussines_right-content img {
+  width: 20px;
+  padding-top: 15px;
+  padding-left: 14px;
+}
+/* .bussines_right-content span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(9, 151, 124, 0.1);
+} */
+
+.bussines_right-content h3 {
+  height: 23px;
+  padding-left: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.bussines_right-content p {
+  /* width: 366px; */
+  height: 48px;
+  padding-left: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.bussines_right-content:hover {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bussines_container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bussines_left {
+    width: 80%;
+  }
+  .bussines_right {
+    width: 80%;
+    margin-top: 40px;
+    padding-left: 0px;
+  }
+  .bussines_left h1 {
+    width: 330px;
+    height: auto;
+  }
+  .bussines_left p {
+    width: 330px;
+  }
+  .bussines_right-content {
+    margin-top: 40px;
+  }
+  .bussines_right-content span {
+    background: transparent;
+  }
+}

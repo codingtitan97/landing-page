@@ -1,0 +1,124 @@
+.hero_container {
+  /* width: 100%; */
+  height: auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.hero_left {
+  width: 50%;
+  height: 100%;
+  color: aliceblue;
+}
+.hero_left-textheader {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  border-radius: 10px;
+  width: 930px;
+  height: 27px;
+  padding: 10px 10px 10px 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.hero_left-mainheading {
+  width: 500px;
+  /* height: 303px; */
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.hero_left-para {
+  width: 483px;
+  height: 115px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.left_navbar-getstarted {
+  width: 250px;
+  height: 54px;
+  /* margin-top: 20px; */
+
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  border-radius: 10px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #00040e;
+}
+.hero_right {
+  width: 50%;
+  color: aliceblue;
+  /* overflow: hidden; */
+}
+
+.nav_right-hero {
+  width: 450px;
+  height: 400px;
+  border-radius: 10px;
+  
+}
+
+@media only screen and (max-width: 900px) {
+  .hero_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left_navbar-getstarted {
+    width: 310px;
+  }
+  .nav_right-hero {
+    width: 600px;
+    height: 380px;
+    margin-top: 40px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hero_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero_left-mainheading {
+    width: 330px;
+  }
+  .hero_left-para {
+    width: 330px;
+    height: 175px;
+  }
+  .hero_left-textheader {
+    font-size: 8px;
+  }
+  .left_navbar-getstarted {
+    width: 310px;
+  }
+  .nav_right-hero {
+    width: 310px;
+    height: 230px;
+    margin-top: 30px;
+  }
+}

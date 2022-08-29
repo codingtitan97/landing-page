@@ -1,0 +1,40 @@
+.footer{
+    color: #ffff;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.footer ul{
+width: 300px;
+height: auto;
+}
+.list-head{
+    /* width: 108px; */
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    }
+.footer li{
+height: 24px;
+list-style: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+    .footer ul{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .footer li{
+        font-size: 19px;
+    }
+} 
